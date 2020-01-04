@@ -27,5 +27,5 @@ def get_japanese_emoticon(file_path, emoticon)
   emoticons = load_library(file_path)
   result = emoticons[:get_emoticon][emoticon]
   if result == nil
-    result = 
+    result = "Sorry"
 end
